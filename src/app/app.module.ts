@@ -35,7 +35,7 @@ interface StoreType {
 }
 
 /**
- * `AppModule` is the main entry point into Angular2's bootstraping process
+ * `AppModule` is the main entry point into Angular's bootstraping process
  */
 @NgModule({
   bootstrap: [ AppComponent ],

@@ -16,7 +16,6 @@ import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState, InternalStateType } from './app.service';
 import { HomeComponent } from './home';
 import { AboutComponent } from './about';
-import { NoContentComponent } from './no-content';
 import { XLargeDirective } from './home/x-large';
 import { DevModuleModule } from './+dev-module';
 
@@ -44,7 +43,6 @@ interface StoreType {
     AppComponent,
     AboutComponent,
     HomeComponent,
-    NoContentComponent,
     XLargeDirective
   ],
   /**

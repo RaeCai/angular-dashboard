@@ -48,22 +48,11 @@ import { AppState } from './app.service';
     </main>
 
     <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
-
-    <footer>
-      <span>Angular Starter by <a [href]="twitter">@gdi2290</a></span>
-      <div>
-        <a [href]="url">
-          <img [src]="tipe" width="25%">
-        </a>
-      </div>
-    </footer>
   `
 })
 export class AppComponent implements OnInit {
-  public name = 'Angular Starter';
+  public name = 'Angular5';
   public tipe = 'assets/img/tipe.png';
-  public twitter = 'https://twitter.com/gdi2290';
-  public url = 'https://tipe.io';
   public showDevModule: boolean = environment.showDevModule;
 
   constructor(

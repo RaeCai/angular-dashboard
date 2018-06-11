@@ -81,10 +81,12 @@
   },
   "dependencies": {
     "@angular/animations": "^5.2.10",
+    "@angular/cdk": "^6.2.1",
     "@angular/common": "^5.2.10",
     "@angular/compiler": "^5.2.10",
     "@angular/core": "^5.2.10",
     "@angular/forms": "^5.2.10",
+    "@angular/material": "^6.2.1",
     "@angular/platform-browser": "^5.2.10",
     "@angular/platform-browser-dynamic": "^5.2.10",
     "@angular/platform-server": "^5.2.10",

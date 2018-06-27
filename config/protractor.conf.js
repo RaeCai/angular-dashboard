@@ -1,7 +1,3 @@
-/**
- * @author: tipe.io
- */
-
 require('ts-node/register');
 var helpers = require('./helpers');
 

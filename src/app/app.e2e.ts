@@ -9,7 +9,7 @@ describe('App', () => {
 
   it('should have a title', async () => {
     const subject = await browser.getTitle();
-    const result  = 'Angular Starter by @gdi2290 from @TipeIO';
+    const result  = 'ANGULAR5';
     expect(subject).toEqual(result);
   });
 

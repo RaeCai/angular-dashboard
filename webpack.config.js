@@ -1,8 +1,4 @@
 /**
- * @author: tipe.io
- */
-
-/**
  * Look in ./config folder for webpack.dev.js
  */
 switch (process.env.NODE_ENV) {

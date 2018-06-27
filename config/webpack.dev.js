@@ -1,7 +1,3 @@
-/**
- * @author: tipe.io
- */
-
 const helpers = require('./helpers');
 const buildUtils = require('./build-utils');
 const webpackMerge = require('webpack-merge'); // used to merge webpack configs

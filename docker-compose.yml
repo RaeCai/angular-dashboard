@@ -1,14 +1,14 @@
 version: '3'
 services:
-  angular-starter:
+  angular-dashboard:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: angular-starter
+    container_name: angular-dashboard
     networks:
-      - angular-starter
+      - angular-dashboard
     ports:
       - '8080:80'
 networks:
-  angular-starter:
+  angular-dashboard:
     driver: bridge

@@ -1,6 +1,4 @@
-/**
- * @author: tipe.io
- */
+
 
 const helpers = require('./helpers');
 

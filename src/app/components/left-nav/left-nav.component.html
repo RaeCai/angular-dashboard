@@ -4,8 +4,10 @@
     <h1>Angular Dashboard</h1>
   </mat-toolbar>
 
-  <mat-sidenav-container class="sidenav-container">
-    <mat-sidenav #snav>
+
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side" opened="true"
+                 [fixedInViewport]="options.value.fixed">
       <mat-nav-list>
         <a mat-list-item routerLink="." *ngFor="let nav of navList">{{nav}}</a>
       </mat-nav-list>

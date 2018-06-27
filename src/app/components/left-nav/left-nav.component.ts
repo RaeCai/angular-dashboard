@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'left-nav',
@@ -8,7 +9,13 @@ import { Component, OnInit } from '@angular/core';
 export class LeftNavComponent implements OnInit {
 
   public navList: Array<string> = [];
-  constructor() { }
+  public options: FormGroup;
+
+  constructor(fb: FormBuilder) {
+    this.options = fb.group({
+      'fixed': false
+    });
+  }
 
   ngOnInit() {
     this.navList = [

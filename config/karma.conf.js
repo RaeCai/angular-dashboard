@@ -1,7 +1,3 @@
-/**
- * @author: tipe.io
- */
-
 module.exports = function (config) {
   const testWebpackConfig = require('./webpack.test.js')({ env: 'test' });
 

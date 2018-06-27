@@ -1,6 +1,3 @@
-/**
- * @author: tipe.io
- */
 const fs = require('fs');
 const path = require('path');
 const helpers = require('./helpers');
